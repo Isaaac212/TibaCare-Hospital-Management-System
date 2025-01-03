@@ -3,18 +3,7 @@ import Slider from "react-slick";
 import Navbar from "./Navbar"; 
 import Footer from "./Footer"; 
 
-
 function About() {
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 3000,
-  };
-
   const settings = {
     dots: true,
     infinite: true,
@@ -83,4 +72,3 @@ function About() {
 }
 
 export default About;
-
